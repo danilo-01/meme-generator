@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <form class="meme-form">
+        <!-- Image url input -->
+        <label for="image-url">Image URL</label>
+        <input required value="" 
+        name="image-url" 
+        type="text"
+        placeholder="URL">
+        <!-- Top text input -->
+        <label for="image-top-text">Top Text</label>
+        <input required value="" 
+        name="image-top-text" 
+        type="text"
+        placeholder="top text">
+        <!-- Bottom text input -->
+        <label for="image-bottom-text">Bottom Text</label>
+        <input required value="" 
+        name="image-bottom-text" 
+        type="text"
+        placeholder="bottom text">
+        <button>Submit</button>
+    </form>
+    <div class="memes-container">
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
